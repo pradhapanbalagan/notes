@@ -141,30 +141,6 @@ const edit_check = ref(false);
 const isEditSelected = ref(false);
 const select_all = ref(false);
 
-const count = ref(0);
-
-// Computed property to double the count
-const doubleCount = computed(() => count.value * 2);
-
-// Watcher to log changes in count
-watch(count, (newVal, oldVal) => {
-  console.log(`Count changed from ${oldVal} to ${newVal}`);
-});
-
-// Method to increment count
-const increment = () => {
-  count.value++;
-};
-
-const session_data_from_store = computed(() => {
-  console.log("session date")
-  return store.getters.getSessionData
-})
-const button_showing=  ref(false);
-
-console.log("sdsdd")
-
-
 
 
 onMounted(async () => {
