@@ -141,6 +141,15 @@ const edit_check = ref(false);
 const isEditSelected = ref(false);
 const select_all = ref(false);
 
+const session_data_from_store = computed(() => {
+  console.log("session date")
+  return store.getters.getSessionData
+})
+const button_showing=  ref(false);
+
+
+
+
 
 
 onMounted(async () => {
