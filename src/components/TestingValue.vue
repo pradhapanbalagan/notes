@@ -14,6 +14,7 @@
           <th>Column 1</th>
           <th>Column 2</th>
           <th>Column 3</th>
+            <th> column 4 pradhap> </th>
           <!-- Add more columns as needed -->
         </tr>
       </thead>
