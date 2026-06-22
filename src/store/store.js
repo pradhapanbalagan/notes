@@ -4,7 +4,7 @@ export default createStore({
   state: {
     sessionData: [],
     contact: [],
-    name:null
+    name:nulljlnljbhb
 
     
   },
